@@ -1,5 +1,7 @@
 # 架构验收与演进边界
 
+> 已于 2026-10-26 迁移至 GitHub Issues。当前记录见 [架构验收与演进边界](https://github.com/15253a/EyeX_agent/issues/11)，以对应 Issue 的原生状态、负责人和依赖为准。以下正文仅保留迁移前只读快照，后续不回写同步。
+
 ID: 10
 Parent: ../map.md
 Labels: wayfinder:grilling

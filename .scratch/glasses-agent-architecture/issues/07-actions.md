@@ -1,5 +1,7 @@
 # 交互、任务状态与动作授权
 
+> 已于 2026-10-26 迁移至 GitHub Issues。当前记录见 [交互、任务状态与动作授权](https://github.com/15253a/EyeX_agent/issues/8)，以对应 Issue 的原生状态、负责人和依赖为准。以下正文仅保留迁移前只读快照，后续不回写同步。
+
 ID: 07
 Parent: ../map.md
 Labels: wayfinder:grilling

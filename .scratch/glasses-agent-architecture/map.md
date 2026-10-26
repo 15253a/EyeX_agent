@@ -1,5 +1,7 @@
 # 智能眼镜 Agent 架构决策地图
 
+> 已于 2026-10-26 迁移至 GitHub Issues。当前记录见 [智能眼镜 Agent 架构决策地图](https://github.com/15253a/EyeX_agent/issues/1)，以对应 Issue 的原生状态、负责人和依赖为准。以下正文仅保留迁移前只读快照，后续不回写同步。
+
 ID: glasses-agent-architecture
 Labels: wayfinder:map
 Status: open

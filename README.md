@@ -6,14 +6,14 @@
 
 ## 阅读入口
 
-- [架构决策地图](.scratch/glasses-agent-architecture/map.md)：目的地、初始约束、已决事项索引及待明确区域。
-- [当前前沿与依赖图](.scratch/glasses-agent-architecture/frontier.md)：可开始的问题与决策顺序。
+- [智能眼镜 Agent 架构决策地图](https://github.com/15253a/EyeX_agent/issues/1)：目的地、初始约束、已决事项索引及待明确区域。
+- 当前可开始的问题：从主图的原生子 Issue 中，选择开放、未分配且无开放前置依赖的票；父子关系与阻塞依赖直接显示在 GitHub Issues 中。
 - [PPT 需求依据](.scratch/glasses-agent-architecture/source-notes.md)：逐页依据与尚缺信息。
 - [原始需求 PPT](20261019.pptx)。
-- [本地 tracker 约定](docs/agents/issue-tracker.md)：领取、讨论、解决和维护决策票的方式。
+- [GitHub tracker 约定](docs/agents/issue-tracker.md)：领取、讨论、解决和维护决策票的方式。
 
 ## 协作方式
 
-本项目使用 Wayfinder 管理架构决策。先阅读地图，再选择开放、无未解决前置且未领取的票。架构决定记录在对应票中，地图保留摘要和链接。
+本项目使用 Wayfinder 和 GitHub Issues 管理架构决策。先阅读地图，再选择开放、无未解决前置且未领取的票。架构决定记录在对应 Issue 的解决评论中，地图保留摘要和链接。
 
-`.scratch/glasses-agent-architecture/` 是当前正式的本地决策记录目录，需要随项目提交。
+架构决策、领取状态、依赖和解决记录以 GitHub Issues 为唯一权威。`.scratch/glasses-agent-architecture/` 中的地图与决策票保留为迁移前只读快照，后续不回写同步；PPT 及需求依据作为来源资料保留。

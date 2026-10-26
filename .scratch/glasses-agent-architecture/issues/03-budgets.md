@@ -1,5 +1,7 @@
 # 时效、资源与离线能力预算
 
+> 已于 2026-10-26 迁移至 GitHub Issues。当前记录见 [时效、资源与离线能力预算](https://github.com/15253a/EyeX_agent/issues/4)，以对应 Issue 的原生状态、负责人和依赖为准。以下正文仅保留迁移前只读快照，后续不回写同步。
+
 ID: 03
 Parent: ../map.md
 Labels: wayfinder:grilling
