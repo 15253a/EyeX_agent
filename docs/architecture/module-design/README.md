@@ -1,6 +1,8 @@
 # EyeX 智能眼镜：模块级架构设计
 
-**最新架构审阅：[三端部署、感知与 Harness、Workspace（v4）](three-end-overview.md)**。远端、手机和眼镜分区；Event 长期记忆部署暂定。下方各版保留过程参考。
+**最新主图审阅：[感知、共用行为与编排（v5）](behavior-overview.md)**。框内只留名称，箭头表达输入、调用与结果反馈；三端分区、通信层、Workspace 和眼镜端 EEG 保留。
+
+[三端详细设计（v4）](three-end-overview.md)保留作过程参考。
 
 **当前优先审阅：[眼镜、手机与远端的关系说明（v3）](plain-overview.md)**。先看分工和具体例子，再看[分层技术图（v2）](layered-overview.md)；下方 v1 图稿作为详细设计依据保留。
 
