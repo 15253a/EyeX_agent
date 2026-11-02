@@ -1,8 +1,8 @@
 # EyeX 智能眼镜：模块级架构设计
 
-**最新主图审阅：[三端架构与功能组合（v7）](composition-overview.md)**。左眼镜、中手机、右远端；手机依次为感知—编排—行为—功能。灰色虚线展开三条演示主线对共用行为的复用，其余连线保留数据、控制与远端服务接入。
+**最新主图审阅：[核心架构与两条主线（v8）](focus-overview.md)**。保留三端与手机四层，用聚合接口精简连线；突出全天候音频驱动按需视频和按需任务，首版功能收敛为三项，新增 ECG／PPG 心率感知（待验证）。
 
-[v6 接口说明](endpoint-overview.md)、[v5 主图](behavior-overview.md)与[三端详细设计（v4）](three-end-overview.md)保留作过程参考。
+[v7 行为复用](composition-overview.md)、[v6 接口说明](endpoint-overview.md)、[v5 主图](behavior-overview.md)与[三端详细设计（v4）](three-end-overview.md)保留作过程参考。
 
 **当前优先审阅：[眼镜、手机与远端的关系说明（v3）](plain-overview.md)**。先看分工和具体例子，再看[分层技术图（v2）](layered-overview.md)；下方 v1 图稿作为详细设计依据保留。
 
@@ -153,5 +153,6 @@ flowchart TB
 - 待验证条件是否有承接位置；若仍有改变主路线的问题，应在当前票继续明确或产生具体后续决策票。
 
 用户本轮“可以”确认的是模块级设计深度和图型组合，不提前计作本版成稿验收。当前票保持开放，完整决定仍记录在对应票的最终决议中。
+
 
 

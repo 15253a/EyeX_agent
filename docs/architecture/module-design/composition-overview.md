@@ -2,7 +2,7 @@
 
 2026-11-02 · v7 审阅稿。按用户本轮修正，将功能层从顶部移到行为层右侧，展示共用行为如何组成演示功能。
 
-[打开主图](three-end-view.html) · [独立 v7 页面](composition-view.html) · [完整 SVG](diagrams/composition-overview.svg) · [完整 PNG](diagrams/composition-overview.png) · [行为与功能局部](diagrams/composition-detail.svg)
+[打开 v7 主图](composition-view.html) · [独立 v7 页面](composition-view.html) · [完整 SVG](diagrams/composition-overview.svg) · [完整 PNG](diagrams/composition-overview.png) · [行为与功能局部](diagrams/composition-detail.svg)
 
 ![三端架构与功能组合](diagrams/composition-overview.png)
 
@@ -35,3 +35,4 @@
 DSH 主选、Koog 备选，手机端适配待验证；明确操作走固定路径，及时采集判断优先本地。远端大模型接 Harness 模型与工具循环及内容理解，Jev 接决策规划，Event 记忆经记忆访问供上下文使用；功能层右移不改变这些调用位置。
 
 Event 存储仍为手机／远端待选，RG/RM 暂指长期记忆维护库。可靠保存、任务有效性、取消及断链停止规则不变；图中设备与算法能力、参数范围均未通过本图验证。图稿继续审阅。
+
