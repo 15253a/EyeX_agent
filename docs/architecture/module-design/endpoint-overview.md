@@ -2,7 +2,7 @@
 
 2026-11-02 · v6 审阅稿。根据本轮讨论重排部署、手机三层和远端服务接入；图中只写模块名，连线标主要载荷。参数名称为当前接口建议，具体取值、硬件支持范围和完整协议仍待验证。
 
-[打开主图](three-end-view.html) · [独立 v6 页面](endpoint-view.html) · [SVG](diagrams/endpoint-overview.svg) · [PNG](diagrams/endpoint-overview.png) · [手机局部](diagrams/endpoint-phone.svg)
+[打开 v6 主图](endpoint-view.html) · [独立 v6 页面](endpoint-view.html) · [SVG](diagrams/endpoint-overview.svg) · [PNG](diagrams/endpoint-overview.png) · [手机局部](diagrams/endpoint-phone.svg)
 
 ![三端架构与数据／控制流](diagrams/endpoint-overview.png)
 
@@ -75,3 +75,4 @@
 EEG、EOG、EMG 按来源分别命名。端侧 EOG 眼动／眨眼识别的相关研究见 [ElectraSight](https://arxiv.org/abs/2412.14848)，咬肌 EMG 测量示例见 [Colonna 等人的研究](https://pubmed.ncbi.nlm.nih.gov/38840500/)；这些资料仅支持术语和技术区分，不证明当前电极配置已具备同等能力。
 
 本图沿用前置执行、保存、取消和断链约束。全部设计细化仍供主图审阅，未表示产品已经实现。上一稿保留于 [v5 感知、行为与编排](behavior-overview.md)。
+
