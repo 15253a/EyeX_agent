@@ -2,7 +2,7 @@
 
 2026-11-02 · v5 审阅稿。按本轮要求，手机端拆成三层；每个方框只保留一个名称，数据和控制含义写在箭头上。
 
-[打开完整主图](three-end-view.html) · [SVG](diagrams/behavior-overview.svg) · [手机局部 SVG](diagrams/behavior-phone.svg)
+[打开 v5 主图](behavior-view.html) · [SVG](diagrams/behavior-overview.svg) · [手机局部 SVG](diagrams/behavior-phone.svg)
 
 ![完整主图](diagrams/behavior-overview.png)
 
@@ -37,3 +37,4 @@ Event 记忆库的部署位置继续待选，RG/RM 仍暂指长期记忆维护�
 执行校验、停止守护、来源与保存依据、取消后抑制旧输出和未知结果核对仍按前置决定落实。本图省略这些模块内细节，行为调度或模型输出不代表硬件已经执行；完成输出也必须经过当前任务有效性校验。
 
 本轮为架构表达与共用能力拆分的审阅稿，未声称新增算法、手机宿主或硬件已经验证。旧 v4 的详细说明继续作为历史依据，本版优先用于主图走读。
+
